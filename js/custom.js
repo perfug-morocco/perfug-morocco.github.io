@@ -16,7 +16,8 @@ jQuery(document).ready(function(){
 	
 	///// FLICKR FEED PHOTOS /////
 	jQuery('#flickrfeed').jflickrfeed({
-		limit: 9,
+		flickrbase: 'https://api.flickr.com/services/feeds/',
+        limit: 9,
 		qstrings: {
 			id: '49203611@N00',
             tags: 'perfugma'
